@@ -4,7 +4,7 @@ body{
 }
 
 .top-nav{
-    background-color: #333;
+    background-image: url(./Images/achtergrond_forum.jpg);
     overflow: hidden;
     width: 100vw;
     padding: 0;
@@ -15,9 +15,10 @@ body{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
     font-size: 17px;
+    background-color: black;
   }
   
   .top-nav a:hover {
@@ -30,9 +31,10 @@ body{
     color: white;
   }
 
-
-.container{
+  .container{
     background-color: darkblue;
     width: 100vw;
     height: 642px;
+    border: 1px black solid;
 }
+
