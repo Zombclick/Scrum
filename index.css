@@ -32,9 +32,17 @@ body{
   }
 
   .container{
-    background-color: darkblue;
+    background-color: white;
     width: 100vw;
     height: 687px;
     border: 1px black solid;
+    position: relative;
+    text-align: center;
 }
 
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
